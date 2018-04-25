@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA4C709E205EAD6E0041E4E0 /* MemoryCardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4C709D205EAD6E0041E4E0 /* MemoryCardsModel.swift */; };
+		EA4C70A0205EB0DB0041E4E0 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4C709F205EB0DB0041E4E0 /* Card.swift */; };
 		EA557C61205D5A0100FB81AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA557C60205D5A0100FB81AD /* AppDelegate.swift */; };
 		EA557C63205D5A0100FB81AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA557C62205D5A0100FB81AD /* ViewController.swift */; };
 		EA557C66205D5A0100FB81AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA557C64205D5A0100FB81AD /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA4C709D205EAD6E0041E4E0 /* MemoryCardsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCardsModel.swift; sourceTree = "<group>"; };
+		EA4C709F205EB0DB0041E4E0 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		EA557C5D205D5A0100FB81AD /* Memory Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memory Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA557C60205D5A0100FB81AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA557C62205D5A0100FB81AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				EA557C60205D5A0100FB81AD /* AppDelegate.swift */,
 				EA557C62205D5A0100FB81AD /* ViewController.swift */,
+				EA4C709F205EB0DB0041E4E0 /* Card.swift */,
+				EA4C709D205EAD6E0041E4E0 /* MemoryCardsModel.swift */,
 				EA557C64205D5A0100FB81AD /* Main.storyboard */,
 				EA557C67205D5A0100FB81AD /* Assets.xcassets */,
 				EA557C69205D5A0100FB81AD /* LaunchScreen.storyboard */,
@@ -91,7 +97,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Eduard Caziuc";
 				TargetAttributes = {
 					EA557C5C205D5A0100FB81AD = {
@@ -138,6 +144,8 @@
 			files = (
 				EA557C63205D5A0100FB81AD /* ViewController.swift in Sources */,
 				EA557C61205D5A0100FB81AD /* AppDelegate.swift in Sources */,
+				EA4C709E205EAD6E0041E4E0 /* MemoryCardsModel.swift in Sources */,
+				EA4C70A0205EB0DB0041E4E0 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +185,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +193,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +244,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +252,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
