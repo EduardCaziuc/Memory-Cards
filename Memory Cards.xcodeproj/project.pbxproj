@@ -14,6 +14,7 @@
 		EA557C66205D5A0100FB81AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA557C64205D5A0100FB81AD /* Main.storyboard */; };
 		EA557C68205D5A0100FB81AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA557C67205D5A0100FB81AD /* Assets.xcassets */; };
 		EA557C6B205D5A0100FB81AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA557C69205D5A0100FB81AD /* LaunchScreen.storyboard */; };
+		EABC879D20BFFA3600340FDA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC879C20BFFA3600340FDA /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EA557C67205D5A0100FB81AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA557C6A205D5A0100FB81AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA557C6C205D5A0100FB81AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EABC879C20BFFA3600340FDA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				EA557C60205D5A0100FB81AD /* AppDelegate.swift */,
 				EA557C62205D5A0100FB81AD /* ViewController.swift */,
 				EA4C709F205EB0DB0041E4E0 /* Card.swift */,
+				EABC879C20BFFA3600340FDA /* Theme.swift */,
 				EA4C709D205EAD6E0041E4E0 /* MemoryCardsModel.swift */,
 				EA557C64205D5A0100FB81AD /* Main.storyboard */,
 				EA557C67205D5A0100FB81AD /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			files = (
 				EA557C63205D5A0100FB81AD /* ViewController.swift in Sources */,
 				EA557C61205D5A0100FB81AD /* AppDelegate.swift in Sources */,
+				EABC879D20BFFA3600340FDA /* Theme.swift in Sources */,
 				EA4C709E205EAD6E0041E4E0 /* MemoryCardsModel.swift in Sources */,
 				EA4C70A0205EB0DB0041E4E0 /* Card.swift in Sources */,
 			);

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -217,14 +217,14 @@
                                 <color key="backgroundColor" red="0.7803921568627451" green="0.76078431372549016" blue="0.89411764705882346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flips: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DTC-JA-87J">
-                                <rect key="frame" x="16" y="632" width="66.5" height="28"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <rect key="frame" x="16" y="622" width="156" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NF-Pg-iW4">
-                                <rect key="frame" x="123" y="622" width="129" height="41"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <rect key="frame" x="180" y="622" width="179" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Restart">
                                     <color key="titleColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -239,21 +239,21 @@
                             <constraint firstItem="MjL-nf-yFW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="43" id="8QS-Lw-GVy"/>
                             <constraint firstItem="XMJ-Xg-d8J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="9HZ-Bb-ma9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MjL-nf-yFW" secondAttribute="bottom" constant="53" id="9gU-wV-CWa"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9NF-Pg-iW4" secondAttribute="trailing" constant="20" symbolic="YES" id="B7J-Ld-lRB"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9NF-Pg-iW4" secondAttribute="trailing" constant="16" id="B7J-Ld-lRB"/>
                             <constraint firstItem="XMJ-Xg-d8J" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="JXU-KH-CJX"/>
                             <constraint firstItem="MjL-nf-yFW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="KeZ-Dg-JkL"/>
-                            <constraint firstItem="9NF-Pg-iW4" firstAttribute="leading" secondItem="DTC-JA-87J" secondAttribute="trailing" constant="40.5" id="Qdd-YN-F46"/>
+                            <constraint firstItem="9NF-Pg-iW4" firstAttribute="leading" secondItem="DTC-JA-87J" secondAttribute="trailing" constant="8" id="Qdd-YN-F46"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="DTC-JA-87J" secondAttribute="bottom" constant="7" id="bA9-Zv-2aZ"/>
                             <constraint firstItem="XMJ-Xg-d8J" firstAttribute="centerX" secondItem="MjL-nf-yFW" secondAttribute="centerX" id="fo8-DX-p1b"/>
-                            <constraint firstItem="DTC-JA-87J" firstAttribute="top" secondItem="MjL-nf-yFW" secondAttribute="bottom" constant="18" id="hXi-ER-4k2"/>
+                            <constraint firstItem="DTC-JA-87J" firstAttribute="top" secondItem="MjL-nf-yFW" secondAttribute="bottom" constant="8" id="hXi-ER-4k2"/>
                             <constraint firstItem="XMJ-Xg-d8J" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pcI-E5-I01"/>
-                            <constraint firstItem="9NF-Pg-iW4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pmk-Zr-vDa"/>
-                            <constraint firstItem="DTC-JA-87J" firstAttribute="centerY" secondItem="9NF-Pg-iW4" secondAttribute="centerY" constant="3.5" id="z5N-Cz-NUF"/>
+                            <constraint firstItem="9NF-Pg-iW4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="82" id="pmk-Zr-vDa"/>
+                            <constraint firstItem="DTC-JA-87J" firstAttribute="centerY" secondItem="9NF-Pg-iW4" secondAttribute="centerY" constant="1.5" id="z5N-Cz-NUF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="flipCountLabel" destination="DTC-JA-87J" id="F2Z-2Y-wnL"/>
+                        <outlet property="flipCountLabel" destination="DTC-JA-87J" id="FG4-uY-7bP"/>
                         <outlet property="restartButton" destination="9NF-Pg-iW4" id="UzE-Dr-yiS"/>
                         <outletCollection property="cardButtons" destination="YgG-sA-lws" collectionClass="NSMutableArray" id="dnm-lL-kAM"/>
                         <outletCollection property="cardButtons" destination="sU1-3U-DMh" collectionClass="NSMutableArray" id="NaE-Dt-eyj"/>
@@ -279,7 +279,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="116.25" y="117.25352112676056"/>
+            <point key="canvasLocation" x="114.40000000000001" y="114.69265367316342"/>
         </scene>
     </scenes>
     <resources>
