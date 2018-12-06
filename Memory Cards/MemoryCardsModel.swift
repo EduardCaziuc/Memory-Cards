@@ -9,11 +9,11 @@
 import Foundation
 
 struct MemoryCardsModel {
-   
+    
     private(set) var cards = [Card]() //or var cards = [Card]()
-     var matches = 0
+    var matches = 0
     private var indexOfOneAndOnlyFaceUpCard: Int? {
-       
+        
         get {
             var foundIndex: Int?
             for index in cards.indices {
@@ -41,7 +41,6 @@ struct MemoryCardsModel {
     mutating func chooseCard(at index: Int) {
         assert(cards.indices.contains(index), "Memory Cards.chosenCard(at: \(index)): chosen index not in the cards")
         
-        
         if !cards[index].isMatched {
             if let matchIndex = indexOfOneAndOnlyFaceUpCard, matchIndex != index {
                 //check if cards match
@@ -50,61 +49,40 @@ struct MemoryCardsModel {
                     cards[index].isMatched = true
                     matches += 1
                 }
-                
                 cards[index].isFaceUp = true
-                
             }else {
                 //either no cards or 2 cards are face up
                 indexOfOneAndOnlyFaceUpCard = index
             }
         }
     }
-
-
     
     init(numberOfPairsOfCards: Int) {
-      assert(numberOfPairsOfCards > 0, "Memory Cards.init( \(numberOfPairsOfCards)): you must have at least one pair of cards")
-        
-        var ShuffledCards = [Card]()
+        assert(numberOfPairsOfCards > 0, "Memory Cards.init( \(numberOfPairsOfCards)): you must have at least one pair of cards")
         
         for _ in 1...numberOfPairsOfCards {
             
             let card = Card()
-            
-             ShuffledCards += [card, card]
-            
-            //or we can type: cards += [card, card] instead of ^
+            cards += [card, card]
         }
         
         // TODO: Shufle the cards (HomeWork)
-        for _ in ShuffledCards {
-            let randomIndex = ShuffledCards.count.arc4random
-            let randomCard = ShuffledCards.remove(at: randomIndex)
+        for _ in cards {
+            let randomIndex = cards.count.arc4random
+            let randomCard = cards.remove(at: randomIndex)
             cards.append(randomCard)
-            //            print(randomCard)
         }
-        
     }
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+extension Int {
+    var arc4random: Int {
+        if self > 0 {
+            return Int(arc4random_uniform(UInt32(self)))
+        }else if self < 0 {
+            return -Int(arc4random_uniform(UInt32(abs(self))))
+        }else {
+            return 0
+        }
+    }
+}
