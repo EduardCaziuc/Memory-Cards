@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let themes = [ThemeModel.halloweenTheme, ThemeModel.happyTheme, ThemeModel.animalsTheme ,ThemeModel.foodTheme, ThemeModel.sportsTheme, ThemeModel.sweetsTheme, ThemeModel.fruitTheme]
+    let themes = [Theme.halloweenTheme, Theme.happyTheme, Theme.animalsTheme ,Theme.foodTheme, Theme.sportsTheme, Theme.sweetsTheme, Theme.fruitTheme]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -119,8 +119,3 @@ class ViewController: UIViewController {
         return emoji[card] ?? "?"
     }
 }
-
-
-
-
-
